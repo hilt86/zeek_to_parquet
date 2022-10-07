@@ -24,6 +24,8 @@ the logfile.
 
 NOTE : Make sure you put the trailing slash on the `s3://zeek.threatbear.co/` URL otherwise the script will fail.
 
+IMPORTANT: Zeek package updates will overwrite `/opt/zeek/share/zeekctl/scripts/archive-log` so until we find another way of running zeek postprocessors YOU WILL NEED TO MAKE THE EDIT AFTER EACH UPDATE!!
+
 Restart Zeek
 `zeekctl restart`
 
