@@ -22,7 +22,7 @@ the logfile.
 162 rm -f $file_name
 ```
 
-NOTE : Make sure you put the trailing slash on the `3://zeek.threatbear.co/` URL otherwise the script will fail.
+NOTE : Make sure you put the trailing slash on the `s3://zeek.threatbear.co/` URL otherwise the script will fail.
 
 Restart Zeek
 `zeekctl restart`
